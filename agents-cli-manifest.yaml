@@ -1,0 +1,21 @@
+name: gcc-delivery-strategy
+acli_version: 1.4.0
+agent_directory: app
+region: us-central1
+base_template: adk
+generated_at: '2026-10-06T14:29:30.616722+00:00'
+language: python
+create_params:
+  deployment_target: agent_runtime
+  session_type: none
+  cicd_runner: google_cloud_build
+  is_a2a: true
+  agent_gateway: false
+  agent_guidance_filename: GEMINI.md
+display_name: Gcc-delivery-strategy
+owner: jkgritz@google.com
+session: '6823832804250353664'
+description: An AI agent deployed on Gemini Enterprise designed to generate a comprehensive
+  Service Delivery Strategy roadmap based on user-uploaded documents and interactive
+  chat inputs, outputting the final deliverable as a Google Slides presentation. -
+  developed by jkgritz
